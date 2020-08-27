@@ -1,0 +1,17 @@
+pre{
+    color: red;
+    font-family:optima;
+    font-size: large;
+}
+text{
+    color:white;
+    animation:abc;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+}
+@keyframes abc{
+    0%{color:red;}
+    10%{color:purple;}
+    20%{color:green;}
+    30%{color:skyblue;}
+}
